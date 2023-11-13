@@ -15,7 +15,7 @@ signInBtn.addEventListener("click", () => {
           if (d.email === email && d.password === password) {
             signInBtn.nextElementSibling.innerText = "Login succeeded";
             setTimeout(() => {
-              window.open("../pages/store.html");
+              window.open("./pages/store.html");
             }, 1000);
           } else {
             signInBtn.nextElementSibling.style.color = "Red";
