@@ -16,10 +16,6 @@ signInBtn.addEventListener("click", () => {
             signInBtn.nextElementSibling.innerText = "Login succeeded";
 
             window.open("pages/store.html");
-          } else {
-            signInBtn.nextElementSibling.style.color = "Red";
-            signInBtn.nextElementSibling.innerText =
-              "Login Failed, Pleas check email, password";
           }
         }
       })
