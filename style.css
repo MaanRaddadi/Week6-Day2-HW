@@ -1,0 +1,48 @@
+body {
+  background-color: #e3e6e6 !important;
+  font-family: "Inter", sans-serif !important;
+}
+.card {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}
+.card-img-top {
+  max-width: 150px !important;
+  object-fit: contain !important;
+  height: 270px !important;
+  object-position: center !important;
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+.card-title,
+.price {
+  text-align: left !important;
+}
+.card-title {
+  font-weight: 700 !important;
+}
+.card-body {
+  width: 100% !important;
+}
+.price {
+  font-weight: 400 !important;
+}
+.logo {
+  width: 50px;
+}
+#SignUpBtn:hover {
+  background-color: black;
+  color: white;
+}
+.errorSpan {
+  color: red;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+.successMsg {
+  color: green;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
