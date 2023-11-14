@@ -6,16 +6,15 @@ body {
   display: flex !important;
   justify-content: space-evenly !important;
   align-items: center !important;
+  height: 400px !important;
 }
 .card-img-top {
   max-width: 150px !important;
   object-fit: contain !important;
-  height: 270px !important;
+  height: 200px !important;
   object-position: center !important;
 }
-.card-img-top:hover {
-  transform: scale(1.1);
-}
+
 .card-title,
 .price {
   text-align: left !important;
@@ -30,7 +29,8 @@ body {
   font-weight: 400 !important;
 }
 .logo {
-  width: 50px;
+  width: 60px;
+  object-fit: contain;
 }
 #SignUpBtn:hover {
   background-color: black;
